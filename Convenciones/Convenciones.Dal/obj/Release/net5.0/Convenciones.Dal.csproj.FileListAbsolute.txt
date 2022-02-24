@@ -1,0 +1,12 @@
+D:\coreApi\ProyectoConvencionesNet5\Convenciones\Convenciones.Dal\bin\Release\net5.0\Convenciones.Dal.deps.json
+D:\coreApi\ProyectoConvencionesNet5\Convenciones\Convenciones.Dal\bin\Release\net5.0\Convenciones.Dal.dll
+D:\coreApi\ProyectoConvencionesNet5\Convenciones\Convenciones.Dal\bin\Release\net5.0\ref\Convenciones.Dal.dll
+D:\coreApi\ProyectoConvencionesNet5\Convenciones\Convenciones.Dal\bin\Release\net5.0\Convenciones.Dal.pdb
+D:\coreApi\ProyectoConvencionesNet5\Convenciones\Convenciones.Dal\obj\Release\net5.0\Convenciones.Dal.csproj.AssemblyReference.cache
+D:\coreApi\ProyectoConvencionesNet5\Convenciones\Convenciones.Dal\obj\Release\net5.0\Convenciones.Dal.GeneratedMSBuildEditorConfig.editorconfig
+D:\coreApi\ProyectoConvencionesNet5\Convenciones\Convenciones.Dal\obj\Release\net5.0\Convenciones.Dal.AssemblyInfoInputs.cache
+D:\coreApi\ProyectoConvencionesNet5\Convenciones\Convenciones.Dal\obj\Release\net5.0\Convenciones.Dal.AssemblyInfo.cs
+D:\coreApi\ProyectoConvencionesNet5\Convenciones\Convenciones.Dal\obj\Release\net5.0\Convenciones.Dal.csproj.CoreCompileInputs.cache
+D:\coreApi\ProyectoConvencionesNet5\Convenciones\Convenciones.Dal\obj\Release\net5.0\Convenciones.Dal.dll
+D:\coreApi\ProyectoConvencionesNet5\Convenciones\Convenciones.Dal\obj\Release\net5.0\ref\Convenciones.Dal.dll
+D:\coreApi\ProyectoConvencionesNet5\Convenciones\Convenciones.Dal\obj\Release\net5.0\Convenciones.Dal.pdb

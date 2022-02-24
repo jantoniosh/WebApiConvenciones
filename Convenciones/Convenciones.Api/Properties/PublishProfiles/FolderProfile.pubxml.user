@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>D:\coreApi\ProyectoConvencionesNet5\Convenciones\Convenciones.Api\bin\Release\net5.0\publish\</_PublishTargetUrl>
+    <History>True|2022-02-23T18:27:05.3228260Z;True|2022-02-23T12:06:36.4711192-06:00;True|2022-02-23T06:01:31.7558996-06:00;</History>
+  </PropertyGroup>
+</Project>

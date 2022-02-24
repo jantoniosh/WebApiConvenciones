@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "119392b1-3a3c-44d6-9ee0-480453c5ac58": {
+      "ProjectGuid": "119392b1-3a3c-44d6-9ee0-480453c5ac58",
+      "DisplayName": "Convenciones.Api",
+      "ColorIndex": 0
+    },
+    "54dfc10d-b6a1-4ee1-a8de-4f714f93f710": {
+      "ProjectGuid": "54dfc10d-b6a1-4ee1-a8de-4f714f93f710",
+      "DisplayName": "Convenciones.Dal",
+      "ColorIndex": 1
+    },
+    "ac4bc639-8da7-4da4-8432-5074541480fb": {
+      "ProjectGuid": "ac4bc639-8da7-4da4-8432-5074541480fb",
+      "DisplayName": "Convenciones.Domain",
+      "ColorIndex": 2
+    },
+    "d508d81b-d523-470b-851c-08929c56c75e": {
+      "ProjectGuid": "d508d81b-d523-470b-851c-08929c56c75e",
+      "DisplayName": "Convenciones.Service",
+      "ColorIndex": 3
+    },
+    "2644399d-c450-4005-8fae-001f6bf393d0": {
+      "ProjectGuid": "2644399d-c450-4005-8fae-001f6bf393d0",
+      "DisplayName": "Convenciones.TestUnit",
+      "ColorIndex": 4
+    }
+  },
+  "NextColorIndex": 5
+}

@@ -1,0 +1,17 @@
+D:\coreApi\ProyectoConvencionesNet5\Convenciones\Convenciones.Service\bin\Debug\net5.0\Convenciones.Service.deps.json
+D:\coreApi\ProyectoConvencionesNet5\Convenciones\Convenciones.Service\bin\Debug\net5.0\Convenciones.Service.dll
+D:\coreApi\ProyectoConvencionesNet5\Convenciones\Convenciones.Service\bin\Debug\net5.0\ref\Convenciones.Service.dll
+D:\coreApi\ProyectoConvencionesNet5\Convenciones\Convenciones.Service\bin\Debug\net5.0\Convenciones.Service.pdb
+D:\coreApi\ProyectoConvencionesNet5\Convenciones\Convenciones.Service\bin\Debug\net5.0\Convenciones.Dal.dll
+D:\coreApi\ProyectoConvencionesNet5\Convenciones\Convenciones.Service\bin\Debug\net5.0\Convenciones.Domain.dll
+D:\coreApi\ProyectoConvencionesNet5\Convenciones\Convenciones.Service\bin\Debug\net5.0\Convenciones.Domain.pdb
+D:\coreApi\ProyectoConvencionesNet5\Convenciones\Convenciones.Service\bin\Debug\net5.0\Convenciones.Dal.pdb
+D:\coreApi\ProyectoConvencionesNet5\Convenciones\Convenciones.Service\obj\Debug\net5.0\Convenciones.Service.csproj.AssemblyReference.cache
+D:\coreApi\ProyectoConvencionesNet5\Convenciones\Convenciones.Service\obj\Debug\net5.0\Convenciones.Service.GeneratedMSBuildEditorConfig.editorconfig
+D:\coreApi\ProyectoConvencionesNet5\Convenciones\Convenciones.Service\obj\Debug\net5.0\Convenciones.Service.AssemblyInfoInputs.cache
+D:\coreApi\ProyectoConvencionesNet5\Convenciones\Convenciones.Service\obj\Debug\net5.0\Convenciones.Service.AssemblyInfo.cs
+D:\coreApi\ProyectoConvencionesNet5\Convenciones\Convenciones.Service\obj\Debug\net5.0\Convenciones.Service.csproj.CoreCompileInputs.cache
+D:\coreApi\ProyectoConvencionesNet5\Convenciones\Convenciones.Service\obj\Debug\net5.0\Convenciones.Service.csproj.CopyComplete
+D:\coreApi\ProyectoConvencionesNet5\Convenciones\Convenciones.Service\obj\Debug\net5.0\Convenciones.Service.dll
+D:\coreApi\ProyectoConvencionesNet5\Convenciones\Convenciones.Service\obj\Debug\net5.0\ref\Convenciones.Service.dll
+D:\coreApi\ProyectoConvencionesNet5\Convenciones\Convenciones.Service\obj\Debug\net5.0\Convenciones.Service.pdb

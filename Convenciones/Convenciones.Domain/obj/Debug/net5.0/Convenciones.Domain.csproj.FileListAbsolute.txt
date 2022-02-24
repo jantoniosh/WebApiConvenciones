@@ -1,0 +1,15 @@
+D:\coreApi\ProyectoConvencionesNet5\Convenciones\Convenciones.Domain\bin\Debug\net5.0\Convenciones.Domain.deps.json
+D:\coreApi\ProyectoConvencionesNet5\Convenciones\Convenciones.Domain\bin\Debug\net5.0\Convenciones.Domain.dll
+D:\coreApi\ProyectoConvencionesNet5\Convenciones\Convenciones.Domain\bin\Debug\net5.0\ref\Convenciones.Domain.dll
+D:\coreApi\ProyectoConvencionesNet5\Convenciones\Convenciones.Domain\bin\Debug\net5.0\Convenciones.Domain.pdb
+D:\coreApi\ProyectoConvencionesNet5\Convenciones\Convenciones.Domain\bin\Debug\net5.0\Convenciones.Dal.dll
+D:\coreApi\ProyectoConvencionesNet5\Convenciones\Convenciones.Domain\bin\Debug\net5.0\Convenciones.Dal.pdb
+D:\coreApi\ProyectoConvencionesNet5\Convenciones\Convenciones.Domain\obj\Debug\net5.0\Convenciones.Domain.csproj.AssemblyReference.cache
+D:\coreApi\ProyectoConvencionesNet5\Convenciones\Convenciones.Domain\obj\Debug\net5.0\Convenciones.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\coreApi\ProyectoConvencionesNet5\Convenciones\Convenciones.Domain\obj\Debug\net5.0\Convenciones.Domain.AssemblyInfoInputs.cache
+D:\coreApi\ProyectoConvencionesNet5\Convenciones\Convenciones.Domain\obj\Debug\net5.0\Convenciones.Domain.AssemblyInfo.cs
+D:\coreApi\ProyectoConvencionesNet5\Convenciones\Convenciones.Domain\obj\Debug\net5.0\Convenciones.Domain.csproj.CoreCompileInputs.cache
+D:\coreApi\ProyectoConvencionesNet5\Convenciones\Convenciones.Domain\obj\Debug\net5.0\Convenciones.Domain.csproj.CopyComplete
+D:\coreApi\ProyectoConvencionesNet5\Convenciones\Convenciones.Domain\obj\Debug\net5.0\Convenciones.Domain.dll
+D:\coreApi\ProyectoConvencionesNet5\Convenciones\Convenciones.Domain\obj\Debug\net5.0\ref\Convenciones.Domain.dll
+D:\coreApi\ProyectoConvencionesNet5\Convenciones\Convenciones.Domain\obj\Debug\net5.0\Convenciones.Domain.pdb
