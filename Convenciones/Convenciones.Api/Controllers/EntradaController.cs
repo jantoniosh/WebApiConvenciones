@@ -20,7 +20,10 @@ namespace Convenciones.Api.Controllers
             _dbContext = dBContext;
             _service = service;
         }
-
+        /// <summary>
+        /// Muestra todas las entradas
+        /// </summary>
+        /// <returns></returns>
         [HttpGet("GetEntradas")]
         public IActionResult GetEntradas()
         {
@@ -29,7 +32,7 @@ namespace Convenciones.Api.Controllers
                 var entradas = _service.GetEntradas(_dbContext);
                 if (entradas.Count == 0)
                 {
-                    _logger.LogInformation("No se encontró ninguna entrada - {loginTime}", DateTime.Now);
+                    _logger.LogWarning("No se encontró ninguna entrada - {loginTime}", DateTime.Now);
                     return NotFound();
                 }
                 _logger.LogInformation("Retorno de entradas correcto - {loginTime}", DateTime.Now);
@@ -37,10 +40,14 @@ namespace Convenciones.Api.Controllers
             }
             catch (Exception)
             {
-                _logger.LogInformation("Error Encontrado - {loginTime}", DateTime.Now);
+                _logger.LogError("Error Encontrado - {loginTime}", DateTime.Now);
                 return StatusCode(500, "An error has ocurred");
             }
         }
+        /// <summary>
+        /// Muestra la entrada relacionada a una URL dada
+        /// </summary>
+        /// <returns></returns>
         [HttpGet("GetEntrada")]
         public IActionResult GetEntrada(string slug)
         {
@@ -49,7 +56,7 @@ namespace Convenciones.Api.Controllers
                 var entradas = _service.GetEntrada(_dbContext, slug);
                 if (entradas.Count == 0)
                 {
-                    _logger.LogInformation("No se encontró ningún resultado para: {titulo} - {loginTime}", slug, DateTime.Now);
+                    _logger.LogWarning("No se encontró ningún resultado para: {titulo} - {loginTime}", slug, DateTime.Now);
                     return NotFound();
                 }
                 _logger.LogInformation("Se encontraron {cantidad} resultados para: {titulo} - {loginTime}", entradas.Count, slug, DateTime.Now);
@@ -57,10 +64,14 @@ namespace Convenciones.Api.Controllers
             }
             catch (Exception)
             {
-                _logger.LogInformation("Error Encontrado - {loginTime}", DateTime.Now);
+                _logger.LogError("Error Encontrado - {loginTime}", DateTime.Now);
                 return StatusCode(500, "An error has ocurred");
             }
         }
+        /// <summary>
+        /// Muestra las entradas relacionadas a títulos, subtítulos y subítulos que coincidan con una entrada dada
+        /// </summary>
+        /// <returns></returns>
         [HttpGet("GetBusqueda")]
         public IActionResult GetBusqueda(string texto)
         {
@@ -81,6 +92,10 @@ namespace Convenciones.Api.Controllers
                 return StatusCode(500, "An error has ocurred");
             }
         }
+        /// <summary>
+        /// Muestra todas las entradas que contengan una etiqueta dada
+        /// </summary>
+        /// <returns></returns>
         [HttpGet("GetEtiqueta")]
         public IActionResult GetEtiqueta(string etiqueta)
         {

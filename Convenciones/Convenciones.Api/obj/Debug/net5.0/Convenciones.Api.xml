@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Convenciones.Api</name>
+    </assembly>
+    <members>
+        <member name="M:Convenciones.Api.Controllers.TituloController.GetTitulos">
+            <summary>
+            Muestra todos los títulos, subtítulos y subsbubtitulos, todos ellos temas
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Convenciones.Api.Controllers.TituloController.GetTitulo(System.String)">
+            <summary>
+            Muestra todos los títulos, subtítulos y subsbubtitulos que contienen un parámetro de entrada
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

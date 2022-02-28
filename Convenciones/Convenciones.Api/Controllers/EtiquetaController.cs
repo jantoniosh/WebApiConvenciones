@@ -19,6 +19,10 @@ namespace Convenciones.Api.Controllers
             _dbContext = dBContext;
             _service = service;
         }
+        /// <summary>
+        /// Muestra todas las etiquetas de la base de datos
+        /// </summary>
+        /// <returns></returns>
         [HttpGet("GetEtiquetas")]
         public IActionResult GetEtiquetas()
         {
@@ -27,7 +31,7 @@ namespace Convenciones.Api.Controllers
                 var etiquetas = _service.GetEtiquetas(_dbContext);
                 if (etiquetas.Count == 0)
                 {
-                    _logger.LogInformation("No se encontró ninguna etiqueta - {loginTime}", DateTime.Now);
+                    _logger.LogWarning("No se encontró ninguna etiqueta - {loginTime}", DateTime.Now);
                     return NotFound();
                 }
                 _logger.LogInformation("Retorno de etiquetas correcto - {loginTime}", DateTime.Now);
@@ -35,7 +39,7 @@ namespace Convenciones.Api.Controllers
             }
             catch (Exception e)
             {
-                _logger.LogInformation("Error Encontrado - {loginTime}", DateTime.Now);
+                _logger.LogError("Error Encontrado - {loginTime}", DateTime.Now);
                 return StatusCode(500, e);
             }
         }

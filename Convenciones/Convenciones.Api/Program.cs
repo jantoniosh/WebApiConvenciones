@@ -1,11 +1,6 @@
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using Serilog;
 
 namespace Convenciones.Api
 {
@@ -21,6 +16,6 @@ namespace Convenciones.Api
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();
-                });
+                }).UseSerilog();
     }
 }

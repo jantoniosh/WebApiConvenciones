@@ -19,6 +19,10 @@ namespace Convenciones.Api.Controllers
             _dbContext = dBContext;
             _service = service;
         }
+        /// <summary>
+        /// Muestra todos los títulos, subtítulos y subsbubtitulos, todos ellos temas
+        /// </summary>
+        /// <returns></returns>
         [HttpGet("GetTitulos")]
         public IActionResult GetTitulos()
         {
@@ -27,7 +31,7 @@ namespace Convenciones.Api.Controllers
                 var titulos = _service.GetTitulos(_dbContext);
                 if (titulos.Count == 0)
                 {
-                    _logger.LogInformation("No se encontró ninguna fuente - {loginTime}", DateTime.Now);
+                    _logger.LogWarning("No se encontró ninguna fuente - {loginTime}", DateTime.Now);
                     return NotFound();
                 }
                 _logger.LogInformation("Retorno de fuente correcto - {loginTime}", DateTime.Now);
@@ -35,10 +39,14 @@ namespace Convenciones.Api.Controllers
             }
             catch (Exception e)
             {
-                _logger.LogInformation("Error Encontrado - {loginTime}", DateTime.Now);
+                _logger.LogError("Error Encontrado - {loginTime}", DateTime.Now);
                 return StatusCode(500, e);
             }
         }
+        /// <summary>
+        /// Muestra todos los títulos, subtítulos y subsbubtitulos que contienen un parámetro de entrada
+        /// </summary>
+        /// <returns></returns>
         [HttpGet("GetTitulo")]
         public IActionResult GetTitulo(string titulo)
         {
@@ -47,7 +55,7 @@ namespace Convenciones.Api.Controllers
                 var titulos = _service.GetTitulo(_dbContext, titulo);
                 if (titulos.Count == 0)
                 {
-                    _logger.LogInformation("No se encontró ningún resultado para: {titulo} - {loginTime}", titulo, DateTime.Now);
+                    _logger.LogWarning("No se encontró ningún resultado para: {titulo} - {loginTime}", titulo, DateTime.Now);
                     return NotFound();
                 }
                 _logger.LogInformation("Se encontraron {cantiddad} resultados para: {titulo} - {loginTime}", titulos.Count, titulo, DateTime.Now);
@@ -55,7 +63,7 @@ namespace Convenciones.Api.Controllers
             }
             catch (Exception)
             {
-                _logger.LogInformation("Error Encontrado - {loginTime}", DateTime.Now);
+                _logger.LogError("Error Encontrado - {loginTime}", DateTime.Now);
                 return StatusCode(500, "An error has ocurred");
             }
         }

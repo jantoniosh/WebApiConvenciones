@@ -8,7 +8,10 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
-
+using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Reflection;
 
 namespace Convenciones.Api
 {
@@ -25,11 +28,15 @@ namespace Convenciones.Api
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddCors();
+            
             var connectionString = Configuration.GetConnectionString("DefaultConnection");
             services.AddDbContext<ConvencionesDBContext>(options => options.UseSqlServer(connectionString));
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Convenciones.Api", Version = "v1" });
+                var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
+                var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
+                c.IncludeXmlComments(xmlPath);
             });
             services.AddScoped<IEntradaService, EntradaService>();
             services.AddScoped<IEtiquetaService, EtiquetaService>();
@@ -41,11 +48,15 @@ namespace Convenciones.Api
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
-            app.UseCors(options =>
+            var hosts = Configuration.GetSection("Cors:AllowedOrigins").Get<List<string>>();
+
+            app.UseCors(builder =>
             {
-                options.AllowAnyOrigin();
-                options.AllowAnyMethod();
-                options.AllowAnyHeader();
+                builder
+                .WithOrigins(hosts.ToArray())
+                .AllowAnyMethod()
+                .AllowAnyHeader()
+                .AllowCredentials();
             });
 
             if (env.IsDevelopment())
