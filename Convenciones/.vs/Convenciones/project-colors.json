@@ -25,7 +25,17 @@
       "ProjectGuid": "2644399d-c450-4005-8fae-001f6bf393d0",
       "DisplayName": "Convenciones.TestUnit",
       "ColorIndex": 4
+    },
+    "0dda2e43-f61d-4e8a-8632-a6563d8539e8": {
+      "ProjectGuid": "0dda2e43-f61d-4e8a-8632-a6563d8539e8",
+      "DisplayName": "Convenciones.UnitTest",
+      "ColorIndex": 5
+    },
+    "9405977a-7835-40e7-ad3e-989ce33de8a0": {
+      "ProjectGuid": "9405977a-7835-40e7-ad3e-989ce33de8a0",
+      "DisplayName": "Convenciones.UnitTest",
+      "ColorIndex": 6
     }
   },
-  "NextColorIndex": 5
+  "NextColorIndex": 7
 }

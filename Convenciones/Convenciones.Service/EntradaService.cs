@@ -23,5 +23,9 @@ namespace Convenciones.Service
         {
             return dbContext.entradas.Where(b => b.etiquetas.Contains(etiqueta)).ToList();
         }
+        public List<Entradas> GetFuente(ConvencionesDBContext dbContext, string fuente)
+        {
+            return dbContext.entradas.Where(b => b.organismos.Contains(fuente) || b.tipoDisposicion.Contains(fuente)).ToList();
+        }
     }
 }

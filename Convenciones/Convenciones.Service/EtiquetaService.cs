@@ -8,9 +8,14 @@ namespace Convenciones.Service
 {
     public class EtiquetaService : IEtiquetaService
     {
-        public List<Etiquetas> GetEtiquetas(ConvencionesDBContext dbContext)
+        private readonly ConvencionesDBContext _dbContext;
+        public EtiquetaService(ConvencionesDBContext dBContext)
         {
-            return dbContext.etiquetas.ToList();
+            _dbContext = dBContext;
+        }
+        public List<Etiquetas> GetEtiquetas()
+        {
+            return _dbContext.etiquetas.ToList();
         }
     }
 }

@@ -1,6 +1,5 @@
 D:\coreApi\ProyectoConvencionesNet5\Convenciones\Convenciones.Domain\bin\Debug\net5.0\Convenciones.Domain.deps.json
 D:\coreApi\ProyectoConvencionesNet5\Convenciones\Convenciones.Domain\bin\Debug\net5.0\Convenciones.Domain.dll
-D:\coreApi\ProyectoConvencionesNet5\Convenciones\Convenciones.Domain\bin\Debug\net5.0\ref\Convenciones.Domain.dll
 D:\coreApi\ProyectoConvencionesNet5\Convenciones\Convenciones.Domain\bin\Debug\net5.0\Convenciones.Domain.pdb
 D:\coreApi\ProyectoConvencionesNet5\Convenciones\Convenciones.Domain\bin\Debug\net5.0\Convenciones.Dal.dll
 D:\coreApi\ProyectoConvencionesNet5\Convenciones\Convenciones.Domain\bin\Debug\net5.0\Convenciones.Dal.pdb
@@ -13,3 +12,4 @@ D:\coreApi\ProyectoConvencionesNet5\Convenciones\Convenciones.Domain\obj\Debug\n
 D:\coreApi\ProyectoConvencionesNet5\Convenciones\Convenciones.Domain\obj\Debug\net5.0\Convenciones.Domain.dll
 D:\coreApi\ProyectoConvencionesNet5\Convenciones\Convenciones.Domain\obj\Debug\net5.0\ref\Convenciones.Domain.dll
 D:\coreApi\ProyectoConvencionesNet5\Convenciones\Convenciones.Domain\obj\Debug\net5.0\Convenciones.Domain.pdb
+D:\coreApi\ProyectoConvencionesNet5\Convenciones\Convenciones.Domain\obj\Debug\net5.0\refint\Convenciones.Domain.dll

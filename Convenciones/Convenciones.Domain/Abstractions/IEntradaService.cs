@@ -10,5 +10,6 @@ namespace Convenciones.Domain.Abstractions
         List<Entradas> GetEntrada(ConvencionesDBContext dbContext, string slug);
         List<Entradas> GetBusqueda(ConvencionesDBContext dbContext, string texto);
         List<Entradas> GetEtiqueta(ConvencionesDBContext dbContext, string etiqueta);
+        List<Entradas> GetFuente(ConvencionesDBContext dbContext, string fuente);
     }
 }

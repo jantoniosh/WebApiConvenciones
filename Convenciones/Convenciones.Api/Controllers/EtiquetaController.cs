@@ -28,7 +28,7 @@ namespace Convenciones.Api.Controllers
         {
             try
             {
-                var etiquetas = _service.GetEtiquetas(_dbContext);
+                var etiquetas = _service.GetEtiquetas();
                 if (etiquetas.Count == 0)
                 {
                     _logger.LogWarning("No se encontró ninguna etiqueta - {loginTime}", DateTime.Now);

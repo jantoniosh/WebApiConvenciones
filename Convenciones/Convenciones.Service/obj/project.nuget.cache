@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "/K7FY25ZfFzphRN49+4dBsjGfvOe+5W08NCYMjTUcUjRnmf86LPpJhJSbBdmCXfZfrEuNnBI7Fe0wPwx2XwrDw==",
+  "dgSpecHash": "6M0An3WCiZyN7ZcXbahyb84/Yc9x4MBGVboaYbH8UQ7LF7WORQCd4N168bQyA+hdTlB2j3UL1E1bY7mBcBEu6Q==",
   "success": true,
   "projectFilePath": "D:\\coreApi\\ProyectoConvencionesNet5\\Convenciones\\Convenciones.Service\\Convenciones.Service.csproj",
   "expectedPackageFiles": [
@@ -155,7 +155,10 @@
     "C:\\Users\\salin\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\salin\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\salin\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\salin\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    "C:\\Users\\salin\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
+    "C:\\Users\\salin\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\salin\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\salin\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }

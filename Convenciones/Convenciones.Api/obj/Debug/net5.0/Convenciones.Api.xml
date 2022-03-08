@@ -4,6 +4,42 @@
         <name>Convenciones.Api</name>
     </assembly>
     <members>
+        <member name="M:Convenciones.Api.Controllers.EntradaController.GetEntradas">
+            <summary>
+            Muestra todas las entradas
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Convenciones.Api.Controllers.EntradaController.GetEntrada(System.String)">
+            <summary>
+            Muestra la entrada relacionada a una URL dada
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Convenciones.Api.Controllers.EntradaController.GetBusqueda(System.String)">
+            <summary>
+            Muestra las entradas relacionadas a títulos, subtítulos y subítulos que coincidan con una entrada dada
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Convenciones.Api.Controllers.EntradaController.GetEtiqueta(System.String)">
+            <summary>
+            Muestra todas las entradas que contengan una etiqueta dada
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Convenciones.Api.Controllers.EtiquetaController.GetEtiquetas">
+            <summary>
+            Muestra todas las etiquetas de la base de datos
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Convenciones.Api.Controllers.FuenteController.GetTitulos">
+            <summary>
+            Muestra todas las fuentes
+            </summary>
+            <returns></returns>
+        </member>
         <member name="M:Convenciones.Api.Controllers.TituloController.GetTitulos">
             <summary>
             Muestra todos los títulos, subtítulos y subsbubtitulos, todos ellos temas

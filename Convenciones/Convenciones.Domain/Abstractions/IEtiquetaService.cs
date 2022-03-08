@@ -6,6 +6,6 @@ namespace Convenciones.Domain.Abstractions
 {
     public interface IEtiquetaService
     {
-        List<Etiquetas> GetEtiquetas(ConvencionesDBContext dbContext);
+        List<Etiquetas> GetEtiquetas();
     }
 }

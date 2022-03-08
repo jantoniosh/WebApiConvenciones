@@ -116,5 +116,25 @@ namespace Convenciones.Api.Controllers
                 return StatusCode(500, "An error has ocurred");
             }
         }
+        [HttpGet("GetFuente")]
+        public IActionResult GetFuente(string fuente)
+        {
+            try
+            {
+                var entradas = _service.GetFuente(_dbContext, fuente);
+                if (entradas.Count == 0)
+                {
+                    _logger.LogInformation("No se encontró ningún resultado para: {titulo} - {loginTime}", fuente, DateTime.Now);
+                    return NotFound();
+                }
+                _logger.LogInformation("Se encontraron {cantidad} resultados para: {titulo} - {loginTime}", entradas.Count, fuente, DateTime.Now);
+                return Ok(entradas);
+            }
+            catch (Exception)
+            {
+                _logger.LogInformation("Error Encontrado - {loginTime}", DateTime.Now);
+                return StatusCode(500, "An error has ocurred");
+            }
+        }
     }
 }

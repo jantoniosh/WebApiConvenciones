@@ -5,7 +5,6 @@ D:\coreApi\ProyectoConvencionesNet5\Convenciones\Convenciones.Api\bin\Debug\net5
 D:\coreApi\ProyectoConvencionesNet5\Convenciones\Convenciones.Api\bin\Debug\net5.0\Convenciones.Api.runtimeconfig.json
 D:\coreApi\ProyectoConvencionesNet5\Convenciones\Convenciones.Api\bin\Debug\net5.0\Convenciones.Api.runtimeconfig.dev.json
 D:\coreApi\ProyectoConvencionesNet5\Convenciones\Convenciones.Api\bin\Debug\net5.0\Convenciones.Api.dll
-D:\coreApi\ProyectoConvencionesNet5\Convenciones\Convenciones.Api\bin\Debug\net5.0\ref\Convenciones.Api.dll
 D:\coreApi\ProyectoConvencionesNet5\Convenciones\Convenciones.Api\bin\Debug\net5.0\Convenciones.Api.pdb
 D:\coreApi\ProyectoConvencionesNet5\Convenciones\Convenciones.Api\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
 D:\coreApi\ProyectoConvencionesNet5\Convenciones\Convenciones.Api\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
@@ -81,3 +80,4 @@ D:\coreApi\ProyectoConvencionesNet5\Convenciones\Convenciones.Api\bin\Debug\net5
 D:\coreApi\ProyectoConvencionesNet5\Convenciones\Convenciones.Api\bin\Debug\net5.0\Serilog.Sinks.MSSqlServer.dll
 D:\coreApi\ProyectoConvencionesNet5\Convenciones\Convenciones.Api\bin\Debug\net5.0\Serilog.Sinks.PeriodicBatching.dll
 D:\coreApi\ProyectoConvencionesNet5\Convenciones\Convenciones.Api\obj\Debug\net5.0\Convenciones.Api.xml
+D:\coreApi\ProyectoConvencionesNet5\Convenciones\Convenciones.Api\obj\Debug\net5.0\refint\Convenciones.Api.dll
